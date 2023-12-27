@@ -28,5 +28,9 @@
 
 
 # 하둡 실습 예제
+- [Apache hadoop, spark 클러스터 자체 구축 방법(기초)](https://youtu.be/qiEQ7gnYRfk?si=b2bCn4FlxzrNjx6_)
+
+
+
 - https://youtu.be/dN85i_jxbXg?si=LQEgzA59o8xe4AFg
 
