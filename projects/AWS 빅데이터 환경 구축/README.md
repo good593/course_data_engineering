@@ -12,12 +12,12 @@ paginate: true
 # [빅데이터 분석 환경 구축](https://www.youtube.com/watch?v=BdNYMu0bUDA&list=PLJlUnZ1kDbt7X2C4ntIYHmphNDIc5wN8J)
 - 인프라 구성도(정상)
 
-![w:800](image.png)
+![w:800](./img/default/image.png)
 
 ---
 - nn1에서 error가 발생한 경우 
 
-![w:800](image-1.png)
+![w:800](./img/default/image-1.png)
 
 ---
 ## [1. AWS EC2 인스턴스 배포](./1.%20AWS%20EC2%20인스턴스%20배포.md)
@@ -61,5 +61,25 @@ paginate: true
 ---
 ## [14. Zeppelin 설치 및 PySpark 연동](./14.%20Zeppelin%20설치%20및%20PySpark%20연동.md)
 
+---
+## AWS 리소스 삭제
+- 인스턴스 중지 
+![Alt text](./img/default/image-2.png)
+
+---
+- 인스턴스 종료(삭제) 
+![Alt text](./img/default/image-3.png)
+
+---
+- AMI 삭제 
+![Alt text](./img/default/image-4.png)
+
+---
+- 보안 그룹 삭제 
+![Alt text](./img/default/image-5.png)
+
+---
+- 키 페어 삭제 
+![Alt text](./img/default/image-6.png)
 
 
