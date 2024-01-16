@@ -33,11 +33,6 @@ paginate: true
 - HiveQL은 내부적으로 MapReduce 잡으로 변환되어 실행된다.
 
 ---
-### [Flume](http://incubator.apache.org/projects/flume.html)
-- Chukwa 처럼 분산된 서버에 에이전트가 설치되고, 에이전트로부터 데이터를 전달받는 콜랙터로 구성
-- 차이점은 전체 데이터의 흐름을 관리하는 마스터 서버가 있어서, 데이터를 어디서 수집하고, 어떤 방식으로 전송하고, 어디에 저장할 지를 동적으로 변경할 수 있다.
-
----
 ### [Sqoop](http://sqoop.apache.org)
 - 대용량 데이터 전송 솔루션 
 - Sqoop은 HDFS, RDBMS, DW, NoSQL등 다양한 저장소에 대용량 데이터를 신속하게 전송할 수 있는 방법을 제공한다.
