@@ -28,7 +28,7 @@ pip3 install requests beautifulsoup4 pandas pyarrow hdfs
 ### 단계1: 하둡 실행 
 ```shell
 # 실행
-. cluster-start-all.sh
+. cluster-restart-all.sh
 # 확인 
 jps
 ```
