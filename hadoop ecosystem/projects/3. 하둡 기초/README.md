@@ -45,7 +45,7 @@ hdfs haadmin -transitionToStandby namenode2 --forcemanual
 ---
 # [2. yarn 명령어](./2.%20yarn%20명령어.md)
 
-
-
+---
+# [3. mapreduce with python](./3.%20mapreduce.md)
 
 
