@@ -38,11 +38,11 @@ paginate: true
 - Sqoop은 HDFS, RDBMS, DW, NoSQL등 다양한 저장소에 대용량 데이터를 신속하게 전송할 수 있는 방법을 제공한다.
 - Oracle, MS-SQL, DB2 등과 같은 상용 RDBMS와 MySQL, PostgresSQL과 같은 오픈소스 RDBMS등을 지원합니다.
 
-
 ---
 ### [Pig](http://pig.apache.org)
 - 복잡한 MapReduce 프로그래밍을 대체할 Pig Latin이라는 자체 언어를 제공 
 - MapReduce API를 매우 단순화시키고 SQL과 유사한 형태로 설계되었다.
+- [Pig vs Hive](https://warm-uk.tistory.com/62)
 
 ---
 # Spark
