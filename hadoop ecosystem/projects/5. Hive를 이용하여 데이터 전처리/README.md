@@ -17,7 +17,15 @@ paginate: true
 - master 인스턴스에 설치
 
 ---
-# 3. hive 테스트 
+# 3. hive 테스트
+### 단계0: 하둡 실행 
+```shell
+. cluster-restart-all.sh
+hdfs haadmin -transitionToActive namenode1 --forcemanual
+hdfs haadmin -getServiceState namenode1
+```
+
+---
 ### 단계1: hive접속 
 ```shell
 hive 
@@ -51,13 +59,7 @@ quit;
 ```
 ![Alt text](./img/image-13.png)
 
-
-
-
-
-
-
-
-
+---
+# [4. Lahman 데이터를 이용한 야구 데이터 분석 예제](./4.%20Lahman%20데이터를%20이용한%20야구%20데이터%20분석%20예제.md)
 
 
