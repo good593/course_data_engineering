@@ -30,8 +30,10 @@ paginate: true
 # [7. WEB UI](./7.%20WEB%20UI.md)
 
 ---
+# [8. Hadoop FailOver 테스트](./8.%20Hadoop%20FailOver%20테스트.md)
 
-
+---
+# [9. 실행 스크립트 생성](./9.%20실행%20스크립트%20생성.md)
 
 
 
