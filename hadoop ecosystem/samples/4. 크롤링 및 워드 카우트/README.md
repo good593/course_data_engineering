@@ -114,3 +114,11 @@ hdfs dfs -text /crawling/output/part-*
 - yarn web ui: http://127.0.0.1:8088/cluster
 ![Alt text](./img/image-7.png)
 
+---
+### 단계8: master > 하둡 정지 
+```shell
+# 정지
+. cluster-stop-all.sh
+# 확인 
+jps
+```
