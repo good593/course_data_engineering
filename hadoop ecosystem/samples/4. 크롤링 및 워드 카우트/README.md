@@ -38,8 +38,7 @@ jps
 
 ---
 ### 단계3: master, worker1 서버 > Active, Standby NameNode 확인
-- namenode1: active
-- namenode2: standby
+- namenode1를 active / namenode2를 standby 상태로 만듬
 ```shell
 hdfs haadmin -getServiceState namenode1 
 hdfs haadmin -getServiceState namenode2

@@ -143,3 +143,30 @@ sudo wget https://archive.apache.org/dist/hadoop/core/hadoop-3.3.0/hadoop-3.3.0.
 ls
 ```
 ![Alt text](./img/image-22.png)
+
+---
+### 단계15: python3 설치 
+```shell
+sudo apt-get install -y python3-pip
+```
+### 단계16: Python 환경설정 
+```shell
+sudo vim ~/.bashrc
+# 아래 내용 복사 
+export PYTHONPATH=/usr/bin/python3
+export PYSPARK_PYTHON=/usr/bin/python3
+export PATH=$PATH:/usr/bin/python3
+
+# 수정내용 반영 
+source ~/.bashrc
+env | grep python3
+```
+---
+### 단계17: Spark 다운로드 
+```shell
+# 설치 관리용 디렉토리 이동
+cd /install_dir
+# Spark 3.2.1 설치
+sudo wget https://archive.apache.org/dist/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
+```
+
