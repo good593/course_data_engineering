@@ -16,19 +16,15 @@ paginate: true
 ![Alt text](./img/ecosystem/image.png)
 
 ---
-# [Hadoop](./hadoop.md)
+## Hadoop Ecosystem 강의내용
+- [Hadoop](./hadoop.md)
+- [Zookeeper](./zookeeper.md) 
+- [Hive](./hive.md)
+- [Sqoop](./sqoop.md)
+- [Pig](./pig.md)
 
 ---
-# [Zookeeper](./zookeeper.md) 
-
----
-# [Hive](./hive.md)
-
----
-# [Sqoop](./sqoop.md)
-
----
-# [Pig](./pig.md)
+# [Web Crawling/Scraping](web_crawling_scraping.md)
 
 ---
 # Spark
