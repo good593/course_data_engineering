@@ -16,19 +16,19 @@ paginate: true
 ![Alt text](./img/ecosystem/image.png)
 
 ---
-## Hadoop Ecosystem 강의내용
-- [Hadoop](./hadoop.md)
-- [Zookeeper](./zookeeper.md) 
-- [Hive](./hive.md)
-- [Sqoop](./sqoop.md)
-- [Pig](./pig.md)
+### [Hadoop](./hadoop.md)
+### [Zookeeper](./zookeeper.md) 
+### [Hive](./hive.md)
+### [Sqoop](./sqoop.md)
+### [Pig](./pig.md)
 
 ---
 # [Web Crawling/Scraping](web_crawling_scraping.md)
 
 ---
-# Spark
-
+# [Spark](./spark.md)
+### [Apache Zeppelin](https://learn.microsoft.com/ko-kr/azure/hdinsight/spark/apache-spark-zeppelin-notebook)
+- Apache Zeppelin은 Jupyter Notebook와 비슷한 데이터 분석 도구이다. 
 
 ---
 # Kafka
