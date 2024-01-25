@@ -31,8 +31,7 @@ paginate: true
 - Apache Zeppelin은 Jupyter Notebook와 비슷한 데이터 분석 도구이다. 
 
 ---
-# Kafka
-- Zookeeper, Broker, Producer, Consumer
+# [Kafka](./kafka.md)
 
 
 
