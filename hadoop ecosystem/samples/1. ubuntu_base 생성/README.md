@@ -105,7 +105,15 @@ sudo apt-get -y dist-upgrade
 sudo apt-get install -y vim wget unzip ssh openssh-* net-tools
 ```
 ---
-### 단계13: Java 8 설치 
+### 단계13: ssh 실행 
+```shell
+sudo service ssh start
+# ssh 실행 확인 
+systemctl status sshd
+```
+
+---
+### 단계14: Java 8 설치 
 ```shell
 # Java 8 설치 
 sudo apt-get install -y openjdk-8-jdk
@@ -133,7 +141,7 @@ env | grep java # 확인
 ![Alt text](./img/image-21.png)
 
 ---
-### 단계14: Apache Hadoop 다운로드  
+### 단계15: Apache Hadoop 다운로드  
 ```shell
 # 설치파일 관리용 디렉토리 생성
 sudo mkdir /install_dir && cd /install_dir
@@ -145,11 +153,11 @@ ls
 ![Alt text](./img/image-22.png)
 
 ---
-### 단계15: python3 설치 
+### 단계16: python3 설치 
 ```shell
 sudo apt-get install -y python3-pip
 ```
-### 단계16: Python 환경설정 
+### 단계17: Python 환경설정 
 ```shell
 sudo vim ~/.bashrc
 # 아래 내용 복사 
@@ -162,7 +170,7 @@ source ~/.bashrc
 env | grep python3
 ```
 ---
-### 단계17: Spark 다운로드 
+### 단계18: Spark 다운로드 
 ```shell
 # 설치 관리용 디렉토리 이동
 cd /install_dir
