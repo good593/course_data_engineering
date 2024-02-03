@@ -9,6 +9,27 @@ style: |
 marp: true
 paginate: true
 ---
+# [프로세서 확인](https://support.microsoft.com/ko-kr/windows/%ED%94%84%EB%A1%9C%EC%84%B8%EC%84%9C%EC%9D%98-%EC%BD%94%EC%96%B4-%EC%88%98-%ED%99%95%EC%9D%B8-3126ef99-0247-33b3-81fc-065e9fb0c35b)
+1. Ctrl +Shift + Esc를 눌러 작업 관리자 실행 
+
+![alt text](./img/image.png)
+
+---
+2. CPU 코어 확인 
+
+![alt text](./img/image-1.png)
+
+---
+3. 메모리 확인 
+
+![alt text](./img/image-2.png)
+
+---
+[4. 저장소 용량 확인](https://support.microsoft.com/ko-kr/windows/pc%EC%9D%98-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9D%B8-c7cbe6ef-267b-6b8a-32d9-01161623ba5a) 
+
+![alt text](./img/image-3.png)
+
+---
 # [Hadoop Ecosystem](./hadoop%20ecosystem/README.md)
 
 ---
@@ -17,8 +38,6 @@ paginate: true
 ---
 # [Kubernetes](./kubernetes/README.md)
 
-
 ---
-형님 강의 자료 
-- https://jazzy-laugh-6a8.notion.site/2-Data-Engineering-Course-02b96d6f79d641a1869037b5254b5697
-- https://jazzy-laugh-6a8.notion.site/2-6-4-Kubernates-d32de05a155340b38429f95d22a2e6e7
+# [Kubeflow](./kubeflow/README.md)
+
