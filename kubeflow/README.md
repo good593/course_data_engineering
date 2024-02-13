@@ -1,4 +1,14 @@
-
+---
+style: |
+  img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+marp: true
+paginate: true
+---
 - https://www.whatwant.com/entry/Kubernetes-Install-1
 - https://www.whatwant.com/entry/Kubeflow-in-Kubernetes
 ----
