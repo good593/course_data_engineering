@@ -20,4 +20,6 @@ paginate: true
 ---
 - https://www.youtube.com/watch?v=qoqLtrdAXQg
 
-
+---
+- https://docs.kakaocloud.com/service/ai-service/kubeflow/tutorials
+- https://mlops-for-all.github.io/docs/kubeflow-dashboard-guide/intro/
