@@ -153,9 +153,10 @@ ls
 ![Alt text](./img/image-22.png)
 
 ---
-### 단계16: python3 설치 
+### 단계16: python3 설치 & pip upgrade
 ```shell
 sudo apt-get install -y python3-pip
+sudo pip3 install --upgrade pip
 ```
 ### 단계17: Python 환경설정 
 ```shell
@@ -178,3 +179,11 @@ cd /install_dir
 sudo wget https://archive.apache.org/dist/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.2.tgz
 ```
 
+### 단계19: Zookeeper 설치
+```shell
+# 설치 관리용 디렉토리 이동
+cd /install_dir
+# Zookeeper 3.8.0 설치
+sudo wget https://archive.apache.org/dist/zookeeper/zookeeper-3.8.0/apache-zookeeper-3.8.0-bin.tar.gz
+
+```
