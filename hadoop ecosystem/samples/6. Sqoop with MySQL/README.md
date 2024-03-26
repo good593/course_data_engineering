@@ -16,13 +16,6 @@ paginate: true
 # [2. Sqoop 테스트](./2.%20Sqoop%20테스트.md)
 
 ---
-# master > 하둡 정지 
-```shell
-# 정지
-. cluster-stop-all.sh
-# 확인 
-jps
-```
-![w:800](./img/image-15.png)
-
-
+# Sqoop 참고문서
+- https://www.tutorialspoint.com/sqoop/index.htm
+- https://www.javatpoint.com/sqoop

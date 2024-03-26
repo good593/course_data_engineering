@@ -33,4 +33,6 @@ jps
 ---
 # [3. Lahman 데이터를 이용한 야구 데이터 분석 예제](./3.%20Lahman%20데이터를%20이용한%20야구%20데이터%20분석%20예제.md)
 
-
+---
+# Hive 참고문서
+- https://sparkbyexamples.com/apache-hive-tutorial/
