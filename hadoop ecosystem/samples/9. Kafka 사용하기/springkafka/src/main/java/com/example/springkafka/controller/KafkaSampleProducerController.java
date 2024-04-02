@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.springkafka.service.KafkaSampleProducerService;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @RestController
 public class KafkaSampleProducerController {
     
@@ -14,7 +17,8 @@ public class KafkaSampleProducerController {
     private KafkaSampleProducerService kafkaSampleProducerService;
 
     @GetMapping("/send/{message}")
-    public String sendMessage(@PathVariable String message) {
+    public String sendMessage(@PathVariable("message") String message) {
+        log.info("[KafkaSampleProducerController][sendMessage] Start");
         kafkaSampleProducerService.sendMessage(message);
         return "성공";
     }

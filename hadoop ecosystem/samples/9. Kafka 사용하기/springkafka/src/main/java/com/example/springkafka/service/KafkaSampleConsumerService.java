@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 public class KafkaSampleConsumerService {
     
-    @KafkaListener(topics = "oingdaddy", groupId = "group-id-oing")
+    @KafkaListener(topics = "test", groupId = "group-id-oing")
     public void consume(String message) throws IOException {       
 
         log.info("[KafkaSampleConsumerService][consume] Start");
