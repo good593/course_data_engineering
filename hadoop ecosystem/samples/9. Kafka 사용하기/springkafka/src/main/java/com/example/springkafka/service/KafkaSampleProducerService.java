@@ -16,6 +16,6 @@ public class KafkaSampleProducerService {
     public void sendMessage(String message) {
         log.info("[KafkaSampleProducerService][sendMessage] Start");
         log.info("send message : "+message);
-        kafkaTemplate.send("oingdaddy", message);
+        kafkaTemplate.send("springboot", message);
     }
 }

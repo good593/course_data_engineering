@@ -23,5 +23,5 @@ paginate: true
 ---
 # [5. kafka 테스트](./5.%20kafka%20테스트.md)
 
----
-- [kafak with spring](https://oingdaddy.tistory.com/308)
+
+
