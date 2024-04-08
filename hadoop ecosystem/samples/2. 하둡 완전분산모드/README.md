@@ -9,6 +9,10 @@ style: |
 marp: true
 paginate: true
 ---
+# Hadoop Cluster 아키텍처
+![alt text](./img/image-62.png)
+
+---
 # [1. 하둡 설치](./1.%20하둡%20설치.md)
 
 ---
