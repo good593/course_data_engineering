@@ -18,7 +18,7 @@ class MessageConsumer:
     def receive_message(self):
         try:
             for message in self.consumer:
-                print(message)
+                print(message.value)
         except Exception as exc:
             raise exc
 
