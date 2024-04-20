@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  # Release.Name > helm install의 이름을 의미함 
+  name: "svc-{{ .Release.Name }}"
+  namespace: default
+spec:
+  type: "{{ .Values.service.type }}"
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: "{{ .Chart.Name }}"
