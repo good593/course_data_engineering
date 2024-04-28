@@ -1,0 +1,11 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  annotations:
+    sidecar.istio.io/inject: "false"
+  name: "sklearn-iris"
+spec:
+  predictor:
+    sklearn:
+      image: "kserve/sklearnserver:v0.9.0"
+      storageUri: "gs://kfserving-examples/models/sklearn/1.0/model"

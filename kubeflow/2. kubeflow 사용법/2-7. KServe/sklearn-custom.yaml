@@ -1,0 +1,12 @@
+apiVersion: "serving.kserve.io/v1beta1"
+kind: "InferenceService"
+metadata:
+  annotations:
+    sidecar.istio.io/inject: "false"
+  name: "sklearn-custom"
+spec:
+  predictor:
+    serviceAccountName: 'sa'
+    sklearn:
+      image: "kserve/sklearnserver:v0.11.2"
+      storageUri: "s3://kserve-test/sklearn-test"

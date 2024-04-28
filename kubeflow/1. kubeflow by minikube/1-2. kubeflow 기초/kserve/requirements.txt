@@ -1,3 +1,0 @@
-kserve==0.9
-pillow==9.0.0
-argparse>=1.4.0
