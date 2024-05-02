@@ -1,2 +1,0 @@
-- https://spidyweb.tistory.com/236
-- https://earthconquest.tistory.com/256

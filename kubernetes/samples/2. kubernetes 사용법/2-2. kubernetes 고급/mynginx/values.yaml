@@ -1,8 +1,0 @@
-replicaCount: 2
-image:
-  repository: nginx
-  tag: 1.25.2
-  pullPolicy: IfNotPresent
-  pullSecret:
-service:
-  type: NodePort
